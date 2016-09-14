@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
 
         android:orientation="horizontal">
 
@@ -75,6 +75,10 @@
 
 
         </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"></View>
 
 
         <LinearLayout
@@ -123,7 +127,8 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addTeamB2Points"
-                android:text="+2 Points" />
+                android:text="+2 Points"
+                />
 
             <Button
                 android:layout_width="match_parent"
